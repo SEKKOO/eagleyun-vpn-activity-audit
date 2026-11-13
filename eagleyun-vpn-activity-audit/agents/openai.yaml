@@ -1,0 +1,4 @@
+interface:
+  display_name: "VPN 申请使用核查"
+  short_description: "读取 VPN 申请表，按生效区间核对员工流量并默认输出有无流量统计表"
+  default_prompt: "使用 $eagleyun-vpn-activity-audit 读取我的 VPN 申请表，确认查询时间与账号类型，核查每条申请生效期间的 VPN 使用情况，并输出包含有流量、无流量及待确认记录的统计表。"
